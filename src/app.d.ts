@@ -7,3 +7,14 @@ declare namespace App {
 	// interface Error {}
 	// interface Platform {}
 }
+
+interface CodeSnippetInput{
+	language: string,
+	code: string,
+	title:string,
+}
+
+interface CodeSnippet extends CodeSnippetInput{
+	favorite: boolean,
+	
+} 
